@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4F2C103277A35A000D76999 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C102277A35A000D76999 /* Tests_iOS.swift */; };
+		E4F2C105277A35A000D76999 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C104277A35A000D76999 /* Tests_iOSLaunchTests.swift */; };
+		E4F2C10F277A35A000D76999 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C10E277A35A000D76999 /* Tests_macOS.swift */; };
+		E4F2C111277A35A000D76999 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C110277A35A000D76999 /* Tests_macOSLaunchTests.swift */; };
+		E4F2C112277A35A000D76999 /* denlilletabelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C0EA277A359E00D76999 /* denlilletabelApp.swift */; };
+		E4F2C113277A35A000D76999 /* denlilletabelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C0EA277A359E00D76999 /* denlilletabelApp.swift */; };
+		E4F2C114277A35A000D76999 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C0EB277A359E00D76999 /* ContentView.swift */; };
+		E4F2C115277A35A000D76999 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C0EB277A359E00D76999 /* ContentView.swift */; };
+		E4F2C116277A35A000D76999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F2C0EC277A35A000D76999 /* Assets.xcassets */; };
+		E4F2C117277A35A000D76999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F2C0EC277A35A000D76999 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4F2C0FF277A35A000D76999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F2C0E5277A359E00D76999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F2C0F0277A35A000D76999;
+			remoteInfo = "denlilletabel (iOS)";
+		};
+		E4F2C10B277A35A000D76999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F2C0E5277A359E00D76999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F2C0F6277A35A000D76999;
+			remoteInfo = "denlilletabel (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4F2C0EA277A359E00D76999 /* denlilletabelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denlilletabelApp.swift; sourceTree = "<group>"; };
+		E4F2C0EB277A359E00D76999 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4F2C0EC277A35A000D76999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F2C0F1277A35A000D76999 /* denlilletabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = denlilletabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F2C0F7277A35A000D76999 /* denlilletabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = denlilletabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F2C0F9277A35A000D76999 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E4F2C0FE277A35A000D76999 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F2C102277A35A000D76999 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		E4F2C104277A35A000D76999 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		E4F2C10A277A35A000D76999 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F2C10E277A35A000D76999 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		E4F2C110277A35A000D76999 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4F2C0EE277A35A000D76999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C0F4277A35A000D76999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C0FB277A35A000D76999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C107277A35A000D76999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4F2C0E4277A359E00D76999 = {
+			isa = PBXGroup;
+			children = (
+				E4F2C0E9277A359E00D76999 /* Shared */,
+				E4F2C0F8277A35A000D76999 /* macOS */,
+				E4F2C101277A35A000D76999 /* Tests iOS */,
+				E4F2C10D277A35A000D76999 /* Tests macOS */,
+				E4F2C0F2277A35A000D76999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4F2C0E9277A359E00D76999 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E4F2C0EA277A359E00D76999 /* denlilletabelApp.swift */,
+				E4F2C0EB277A359E00D76999 /* ContentView.swift */,
+				E4F2C0EC277A35A000D76999 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E4F2C0F2277A35A000D76999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F2C0F1277A35A000D76999 /* denlilletabel.app */,
+				E4F2C0F7277A35A000D76999 /* denlilletabel.app */,
+				E4F2C0FE277A35A000D76999 /* Tests iOS.xctest */,
+				E4F2C10A277A35A000D76999 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F2C0F8277A35A000D76999 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4F2C0F9277A35A000D76999 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E4F2C101277A35A000D76999 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4F2C102277A35A000D76999 /* Tests_iOS.swift */,
+				E4F2C104277A35A000D76999 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		E4F2C10D277A35A000D76999 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4F2C10E277A35A000D76999 /* Tests_macOS.swift */,
+				E4F2C110277A35A000D76999 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4F2C0F0277A35A000D76999 /* denlilletabel (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F2C11A277A35A000D76999 /* Build configuration list for PBXNativeTarget "denlilletabel (iOS)" */;
+			buildPhases = (
+				E4F2C0ED277A35A000D76999 /* Sources */,
+				E4F2C0EE277A35A000D76999 /* Frameworks */,
+				E4F2C0EF277A35A000D76999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "denlilletabel (iOS)";
+			productName = "denlilletabel (iOS)";
+			productReference = E4F2C0F1277A35A000D76999 /* denlilletabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4F2C0F6277A35A000D76999 /* denlilletabel (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F2C11D277A35A000D76999 /* Build configuration list for PBXNativeTarget "denlilletabel (macOS)" */;
+			buildPhases = (
+				E4F2C0F3277A35A000D76999 /* Sources */,
+				E4F2C0F4277A35A000D76999 /* Frameworks */,
+				E4F2C0F5277A35A000D76999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "denlilletabel (macOS)";
+			productName = "denlilletabel (macOS)";
+			productReference = E4F2C0F7277A35A000D76999 /* denlilletabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4F2C0FD277A35A000D76999 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F2C120277A35A000D76999 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				E4F2C0FA277A35A000D76999 /* Sources */,
+				E4F2C0FB277A35A000D76999 /* Frameworks */,
+				E4F2C0FC277A35A000D76999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4F2C100277A35A000D76999 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = E4F2C0FE277A35A000D76999 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E4F2C109277A35A000D76999 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F2C123277A35A000D76999 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				E4F2C106277A35A000D76999 /* Sources */,
+				E4F2C107277A35A000D76999 /* Frameworks */,
+				E4F2C108277A35A000D76999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4F2C10C277A35A000D76999 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = E4F2C10A277A35A000D76999 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4F2C0E5277A359E00D76999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E4F2C0F0277A35A000D76999 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E4F2C0F6277A35A000D76999 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E4F2C0FD277A35A000D76999 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E4F2C0F0277A35A000D76999;
+					};
+					E4F2C109277A35A000D76999 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E4F2C0F6277A35A000D76999;
+					};
+				};
+			};
+			buildConfigurationList = E4F2C0E8277A359E00D76999 /* Build configuration list for PBXProject "denlilletabel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4F2C0E4277A359E00D76999;
+			productRefGroup = E4F2C0F2277A35A000D76999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4F2C0F0277A35A000D76999 /* denlilletabel (iOS) */,
+				E4F2C0F6277A35A000D76999 /* denlilletabel (macOS) */,
+				E4F2C0FD277A35A000D76999 /* Tests iOS */,
+				E4F2C109277A35A000D76999 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4F2C0EF277A35A000D76999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F2C116277A35A000D76999 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C0F5277A35A000D76999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F2C117277A35A000D76999 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C0FC277A35A000D76999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C108277A35A000D76999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4F2C0ED277A35A000D76999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F2C114277A35A000D76999 /* ContentView.swift in Sources */,
+				E4F2C112277A35A000D76999 /* denlilletabelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C0F3277A35A000D76999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F2C115277A35A000D76999 /* ContentView.swift in Sources */,
+				E4F2C113277A35A000D76999 /* denlilletabelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C0FA277A35A000D76999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F2C105277A35A000D76999 /* Tests_iOSLaunchTests.swift in Sources */,
+				E4F2C103277A35A000D76999 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F2C106277A35A000D76999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F2C111277A35A000D76999 /* Tests_macOSLaunchTests.swift in Sources */,
+				E4F2C10F277A35A000D76999 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4F2C100277A35A000D76999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4F2C0F0277A35A000D76999 /* denlilletabel (iOS) */;
+			targetProxy = E4F2C0FF277A35A000D76999 /* PBXContainerItemProxy */;
+		};
+		E4F2C10C277A35A000D76999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4F2C0F6277A35A000D76999 /* denlilletabel (macOS) */;
+			targetProxy = E4F2C10B277A35A000D76999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4F2C118277A35A000D76999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4F2C119277A35A000D76999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E4F2C11B277A35A000D76999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.denlilletabel;
+				PRODUCT_NAME = denlilletabel;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4F2C11C277A35A000D76999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.denlilletabel;
+				PRODUCT_NAME = denlilletabel;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F2C11E277A35A000D76999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.denlilletabel;
+				PRODUCT_NAME = denlilletabel;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4F2C11F277A35A000D76999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.denlilletabel;
+				PRODUCT_NAME = denlilletabel;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E4F2C121277A35A000D76999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "denlilletabel (iOS)";
+			};
+			name = Debug;
+		};
+		E4F2C122277A35A000D76999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "denlilletabel (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F2C124277A35A000D76999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "denlilletabel (macOS)";
+			};
+			name = Debug;
+		};
+		E4F2C125277A35A000D76999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "denlilletabel (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4F2C0E8277A359E00D76999 /* Build configuration list for PBXProject "denlilletabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F2C118277A35A000D76999 /* Debug */,
+				E4F2C119277A35A000D76999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F2C11A277A35A000D76999 /* Build configuration list for PBXNativeTarget "denlilletabel (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F2C11B277A35A000D76999 /* Debug */,
+				E4F2C11C277A35A000D76999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F2C11D277A35A000D76999 /* Build configuration list for PBXNativeTarget "denlilletabel (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F2C11E277A35A000D76999 /* Debug */,
+				E4F2C11F277A35A000D76999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F2C120277A35A000D76999 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F2C121277A35A000D76999 /* Debug */,
+				E4F2C122277A35A000D76999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F2C123277A35A000D76999 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F2C124277A35A000D76999 /* Debug */,
+				E4F2C125277A35A000D76999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4F2C0E5277A359E00D76999 /* Project object */;
+}
