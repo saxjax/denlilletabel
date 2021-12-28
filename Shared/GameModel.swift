@@ -8,16 +8,16 @@
 import Foundation
 class GameModel:ObservableObject {
   
-@Published var gamestate = [[1,2,3,4,5,6,7,8,9,10],
-                 [2,0,0,0,0,0,0,0,0,0],
-                 [3,0,0,0,0,0,0,0,0,0],
-                 [4,0,0,0,0,0,0,0,0,0],
-                 [5,0,0,0,0,0,0,0,0,0],
-                 [6,0,0,0,0,0,0,0,0,0],
-                 [7,0,0,0,0,0,0,0,0,0],
-                 [8,0,0,0,0,0,0,0,0,0],
-                 [9,0,0,0,0,0,0,0,0,0],
-                 [10,0,0,0,0,0,0,0,0,0]
+  @Published var gamestate:[[Int?]] = [[1,2,3,4,5,6,7,8,9,10],
+                 [2,nil,nil,nil,nil,nil,nil,nil,nil,nil],
+                 [3,nil,nil,nil,nil,nil,nil,nil,nil,nil],
+                 [4,nil,nil,nil,nil,nil,nil,nil,nil,nil],
+                 [5,nil,nil,nil,nil,nil,nil,nil,nil,nil],
+                 [6,nil,nil,nil,nil,nil,nil,nil,nil,nil],
+                 [7,nil,nil,nil,nil,nil,nil,nil,nil,nil],
+                 [8,nil,nil,nil,nil,nil,nil,nil,nil,nil],
+                 [9,nil,nil,nil,nil,nil,nil,nil,nil,nil],
+                 [10,nil,nil,nil,nil,nil,nil,nil,nil,nil]
                  ]
 let facit = [[1,2,3,4,5,6,7,8,9,10],
              [2,4,6,8,10,12,14,16,18,20],

@@ -18,26 +18,36 @@ struct pos:Hashable{
 
 struct ContentView: View {
   @ObservedObject var m = GameModel()
+  @FocusState private var isFocused: Bool
 
     var body: some View {
 
 
       VStack {
-        Text("Til min søde Asta Luna").font(.title)
+
         Text("Den Lille Tabel").font(.title)
+        Text("skriv de manglende tal, feks: 2,4,6,8...")
+
         VStack {
           ForEach((0...9), id: \.self){row in
             HStack{
               ForEach((0...9), id: \.self){column in
                 Field(id: pos(row: row, col: column), model: m)
-                  .frame(minWidth: 25, idealWidth: 50, maxWidth: 100, minHeight: 25, idealHeight: 50, maxHeight: 100, alignment: .center)
+                  .frame(minWidth: 25, idealWidth: 50, maxWidth: 100, minHeight: 25, idealHeight: 50, maxHeight: 100, alignment: .center).focused($isFocused)
               }
-
-
             }
           }
         }
+
       }.scaledToFit().padding()
+        .toolbar {
+          ToolbarItem(placement: .keyboard) {
+            Button("Done") {
+              isFocused = false
+            }
+          }
+        }
+
     }
 
 
@@ -52,11 +62,22 @@ struct ContentView: View {
     let id:pos
     @ObservedObject var model: GameModel
 
+
     var body: some View {
-      TextField("x", value: $model.gamestate[id.row][id.col],formatter: NumberFormatter())
-        .keyboardType(.numberPad)
+    #if os(macOS)
+      let isCorrect = (model.gamestate[id.row][id.col] == model.facit[id.row][id.col])
+      TextField("x", value: $model.gamestate[id.row][id.col] ,formatter: NumberFormatter())
         .multilineTextAlignment(.center)
-        .background((model.gamestate[id.row][id.col] == model.facit[id.row][id.col]) ? Color.green : Color.clear)
+        .background(isCorrect ? Color.green : Color.clear)
+    #else
+
+      let isCorrect = (model.gamestate[id.row][id.col] == model.facit[id.row][id.col])
+      TextField("x", value: $model.gamestate[id.row][id.col] ,formatter: NumberFormatter())
+        .multilineTextAlignment(.center)
+        .keyboardType(.numberPad)
+        .background(isCorrect ? Color.green : Color.clear)
+    #endif
+
     }
   }
 }
