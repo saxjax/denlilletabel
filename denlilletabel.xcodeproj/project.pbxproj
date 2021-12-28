@@ -17,6 +17,8 @@
 		E4F2C115277A35A000D76999 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C0EB277A359E00D76999 /* ContentView.swift */; };
 		E4F2C116277A35A000D76999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F2C0EC277A35A000D76999 /* Assets.xcassets */; };
 		E4F2C117277A35A000D76999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F2C0EC277A35A000D76999 /* Assets.xcassets */; };
+		E4F2C127277A747200D76999 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C126277A747200D76999 /* GameModel.swift */; };
+		E4F2C128277A747300D76999 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2C126277A747200D76999 /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E4F2C10A277A35A000D76999 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F2C10E277A35A000D76999 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E4F2C110277A35A000D76999 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		E4F2C126277A747200D76999 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		E4F2C129277A931200D76999 /* denlilletabel (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "denlilletabel (iOS).entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		E4F2C0E4277A359E00D76999 = {
 			isa = PBXGroup;
 			children = (
+				E4F2C129277A931200D76999 /* denlilletabel (iOS).entitlements */,
 				E4F2C0E9277A359E00D76999 /* Shared */,
 				E4F2C0F8277A35A000D76999 /* macOS */,
 				E4F2C101277A35A000D76999 /* Tests iOS */,
@@ -100,6 +105,7 @@
 				E4F2C0EA277A359E00D76999 /* denlilletabelApp.swift */,
 				E4F2C0EB277A359E00D76999 /* ContentView.swift */,
 				E4F2C0EC277A35A000D76999 /* Assets.xcassets */,
+				E4F2C126277A747200D76999 /* GameModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F2C127277A747200D76999 /* GameModel.swift in Sources */,
 				E4F2C114277A35A000D76999 /* ContentView.swift in Sources */,
 				E4F2C112277A35A000D76999 /* denlilletabelApp.swift in Sources */,
 			);
@@ -308,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F2C128277A747300D76999 /* GameModel.swift in Sources */,
 				E4F2C115277A35A000D76999 /* ContentView.swift in Sources */,
 				E4F2C113277A35A000D76999 /* denlilletabelApp.swift in Sources */,
 			);
@@ -463,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "denlilletabel (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LW5S74625G;
@@ -471,9 +480,12 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.denlilletabel;
 				PRODUCT_NAME = denlilletabel;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "denlilletabel (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LW5S74625G;
@@ -501,9 +515,12 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,6 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.denlilletabel;
 				PRODUCT_NAME = denlilletabel;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,7 +555,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.denlilletabel;
 				PRODUCT_NAME = denlilletabel;
@@ -565,7 +583,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.denlilletabel;
 				PRODUCT_NAME = denlilletabel;
